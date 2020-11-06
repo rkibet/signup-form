@@ -70,6 +70,7 @@ a{
     text-align: center;
     font-size: 24px;
     font-weight: 400;
+    padding-bottom: 20px;
 }
 .form-container p{
     font-size: 14px;
@@ -104,6 +105,7 @@ a{
 .form-container .terms{
     font-size: 13px;
     margin-top: 20px;
+    font-style: italic;
 }
 .validation p{
     background-color: #eceef1;
@@ -119,15 +121,6 @@ footer{
     margin-top: 40px;
     font-size: 14px;
     line-height: 21px;
-
-    /* height: 59px;
-    padding: 20px 0;
-    width: 97vw;
-    margin: 0 auto;
-    text-align: center;
-
-    color: #505050;
-    font-size: 12px; */
 }
 footer a{
     color: #1177c5;
@@ -141,6 +134,7 @@ footer p{
     line-height: 21px;
     font-size: 10px;
 }
+
 nav{
     text-align: center;
     padding-top: 5px;
@@ -153,8 +147,6 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
-
-
 .privacy-btn{
     position: fixed;
     bottom: 0;
@@ -165,4 +157,25 @@ nav a:hover{
     border-radius: 3px;
     background-color: #6b6c72;
     color: rgb(255, 255, 255);
+}
+.bottomtext{
+margin-top: auto;
+padding: 10px;
+width: auto;
+text-align: center;
+background: #eceef1;
+line-height: 21px;
+font-size: 15px;
+color: #666;
+}
+.sign-in-button{
+    font-size: 1.1em;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 32px;
+    padding: 0 20px;
+    margin-left: 10px;
+    background-color: #1177c5;
+    color: #fff;
+    font-size: 12px;
 }
